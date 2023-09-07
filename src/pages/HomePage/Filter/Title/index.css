@@ -1,0 +1,22 @@
+.filter-title .material-symbols-outlined {
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.filter-title.active .material-symbols-outlined {
+  transform: rotate(180deg);
+}
+
+.filter-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-border-secondary);
+  font: normal var(--font-weight-semibold) var(--font-size-sm) / var(--line-height-l) 'Open Sans';
+}
+
+.filter-title.active + .dropdown-content {
+  display: block;
+}

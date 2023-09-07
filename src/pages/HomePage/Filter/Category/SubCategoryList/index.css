@@ -1,0 +1,13 @@
+.subcategory-list {
+  margin-left: 15px;
+}
+
+.subcategory {
+  display: flex;
+  align-items: center;
+  width: 130px;
+  font: normal var(--font-weight-regular) var(--font-size-sm) / var(--line-height-l) 'Open Sans';
+  color: var(--color-border-secondary);
+  margin: 15px 0 15px 25px;
+  cursor: pointer;
+}

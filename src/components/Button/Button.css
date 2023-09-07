@@ -1,0 +1,76 @@
+.btn-primary {
+  background: var(--color-black);
+  border-radius: 10px;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: normal var(--font-weight-semibold) var(--font-size-sm) / var(--line-height-md) 'Open Sans';
+}
+
+.btn-secondary {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: normal var(--font-weight-semibold) var(--font-size-sm) / var(--line-height-md) 'Open Sans';
+}
+
+.btn.btn-tertiary {
+  border: none;
+  background: none;
+  width: 9px;
+  height: 34px;
+  padding: 0px;
+  margin: 20px;
+  font-size: var(--font-size-l);
+}
+
+.btn.btn-tertiary.btn-color-warning,
+.btn.btn-tertiary.btn-color-success {
+  color: var(--color-button-secondary);
+}
+
+.btn.btn-tertiary.btn-color-warning,
+.btn.btn-loading.btn-color-warning {
+  color: var(--color-button-primary);
+}
+
+.btn-loading {
+  background-color: var();
+  color: var();
+}
+
+button[disabled] {
+  border: 1px solid var();
+  background-color: var();
+  color: var();
+}
+
+button[disabled]:hover {
+  background-color: var();
+  color: var();
+  cursor: no-drop;
+}
+
+.btn img {
+  width: 100%;
+}
+
+.btn-sm {
+  width: 219px;
+  height: 60px;
+}
+
+.btn-lg {
+  width: 254px;
+  height: 60px;
+}
+
+.btn-xl {
+  width: 284px;
+  height: 60px;
+}

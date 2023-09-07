@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList component List renders correctly 1`] = `
+<div>
+  <div
+    class="product-list"
+  >
+    <div
+      class="no-results"
+    />
+  </div>
+  <div
+    class="pagination-container"
+  >
+    <nav
+      aria-label="Pagination"
+    >
+      <ul
+        class="pagination"
+      />
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`ProductList component should filter products correctly based on selected filters 1`] = `
+<div>
+  <div
+    class="product-list"
+  >
+    <div
+      class="no-results"
+    />
+  </div>
+  <div
+    class="pagination-container"
+  >
+    <nav
+      aria-label="Pagination"
+    >
+      <ul
+        class="pagination"
+      />
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`ProductList component should handle page change correctly 1`] = `
+<div>
+  <div
+    class="product-list"
+  >
+    <div
+      class="no-results"
+    />
+  </div>
+  <div
+    class="pagination-container"
+  >
+    <nav
+      aria-label="Pagination"
+    >
+      <ul
+        class="pagination"
+      />
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`ProductList component should render list of products when products are not empty 1`] = `
+<div>
+  <div
+    class="product-list"
+  >
+    <div
+      class="no-results"
+    />
+  </div>
+  <div
+    class="pagination-container"
+  >
+    <nav
+      aria-label="Pagination"
+    >
+      <ul
+        class="pagination"
+      />
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`ProductList component should sort products correctly based on sort type 1`] = `
+<div>
+  <div
+    class="product-list"
+  >
+    <div
+      class="no-results"
+    />
+  </div>
+  <div
+    class="pagination-container"
+  >
+    <nav
+      aria-label="Pagination"
+    >
+      <ul
+        class="pagination"
+      />
+    </nav>
+  </div>
+</div>
+`;

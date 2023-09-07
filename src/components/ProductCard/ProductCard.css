@@ -1,0 +1,87 @@
+.product-card {
+  width: 295px;
+  height: 363px;
+  margin: 0 0 50px 15px;
+  position: relative;
+}
+
+.product-card img {
+  width: 100%;
+  max-height: 300px;
+  height: 259px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.product-card p {
+  font-size: var(--font-size-regular);
+  margin-bottom: 4px;
+}
+
+.product-card .sell-count {
+  width: 73px;
+  height: 14px;
+  font: normal var(--font-weight-regular) var(--font-size-regular) / var(--line-height-regular)
+    'Open Sans';
+  letter-spacing: 0.1px;
+  color: var(--color-price);
+  margin-left: 11.5px;
+}
+
+.product-card .name {
+  width: 254px;
+  height: 27px;
+  font: normal var(--font-weight-bold) var(--font-size-sm) / var(--line-height-md) 'Open Sans';
+  color: var(--color-overlay);
+  margin-bottom: 11.5px;
+}
+
+.product-card .price {
+  width: 52px;
+  height: 24px;
+  font: normal var(--font-weight-extrabold) var(--font-size-sm) / var(--line-height-md) 'Open Sans';
+  display: flex;
+  align-items: center;
+  color: var(--color-overlay);
+}
+
+.rating i {
+  color: var(--color-icon-tertiary);
+  margin-right: 4px;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart-icon .fa-heart {
+  border: none;
+  color: var(--color-primary);
+}
+
+.product-discount {
+  display: flex;
+  align-items: center;
+}
+
+.product-cost {
+  font: normal var(--font-weight-regular) var(--font-size-regular) / var(--line-height-md)
+    'Open Sans';
+  color: var(--color-primary);
+  margin: 0 10px 0 10px;
+}
+
+.discount-percent {
+  font: normal var(--font-weight-regular) var(--font-size-regular) / var(--line-height-md)
+    'Open Sans';
+  color: var(--color-secondary);
+}

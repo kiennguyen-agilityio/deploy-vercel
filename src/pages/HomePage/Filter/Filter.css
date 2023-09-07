@@ -1,0 +1,16 @@
+
+.filter-container {
+  width: 245px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.filter-header {
+  margin-bottom: 15px;
+  color: var(--color-border-secondary);
+  font: normal var(--font-weight-bold) var(--font-size-sm) / var(--line-height-l) 'Open Sans';
+}
+
+.dropdown-text {
+  margin-left: 15px;
+}

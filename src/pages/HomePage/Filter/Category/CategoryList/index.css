@@ -1,0 +1,7 @@
+.sub-title {
+  display: flex;
+  align-items: center;
+  font: normal var(--font-weight-regular) var(--font-size-sm) / var(--line-height-l) 'Open Sans';
+  color: var(--color-price-primary);
+}
+     

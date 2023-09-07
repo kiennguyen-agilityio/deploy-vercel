@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders MsgErrBoundary component correctly 1`] = `
+<div>
+  <div
+    class="modal-overlay"
+  >
+    <div
+      class="modal-content"
+    >
+      <div
+        class="modal-header"
+      >
+        <button
+          class="modal-close-button"
+          type="button"
+        >
+          ×
+        </button>
+      </div>
+      <div
+        class="modal-body"
+      >
+        <div
+          class="error-fallback-container"
+        >
+          <h2
+            class="error-fallback-title"
+          >
+            Oops! Something went wrong
+          </h2>
+          <p
+            class="error-fallback-description"
+          >
+            We're sorry, but an error occurred while processing your request.
+          </p>
+          <button
+            class="btn btn-primary btn-color-success btn-sm  "
+            type="button"
+          >
+            <span>
+              Back to home page
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

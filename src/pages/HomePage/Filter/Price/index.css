@@ -1,0 +1,31 @@
+.price-button {
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  box-sizing: border-box;
+  width: 235px;
+  height: 57px;
+  background: var(--color-background);
+  border: 1px solid var(--color-border-tertiary);
+  border-radius: 5px;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.price-button-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 55px;
+  background: var(--color-button-price);
+  border-radius: 4px 0px 0px 4px;
+}
+
+.price-button-label {
+  margin: 0 auto;
+  width: 146px;
+  height: 30px;
+  font: normal var(--font-weight-regular) var(--font-size-sm) / var(--line-height-l) 'Open Sans';
+  color: var(--color-primary);
+}

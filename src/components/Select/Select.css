@@ -1,0 +1,22 @@
+.product-color select {
+  box-sizing: border-box;
+  width: 170px;
+  height: 60px;
+  border: 1px solid var(--color-black);
+  border-radius: 10px;
+  appearance: none;
+  background-image: url('/src//assets/images/icon-arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 30px) center;
+  background-size: 20px;
+  padding: 15px 30px 15px 30px;
+  margin-top: 15px;
+  background-color: var(--color-background-tertiary);
+}
+
+.select-wrapper option {
+  position: absolute;
+  width: 62px;
+  height: 34px;
+  font: normal var(--font-weight-regular) var(--font-size-l) / var(--line-height-xl) 'Open Sans';
+}

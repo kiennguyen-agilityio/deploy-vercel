@@ -1,0 +1,41 @@
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-text {
+  width: 106px;
+  height: 34px;
+  font: normal var(--font-weight-regular) var(--font-size-l) / var(--line-height-xl) 'Open Sans';
+  color: var(--color-overlay);
+}
+
+.quantity-button {
+  border: none;
+  background: none;
+  width: 9px;
+  height: 34px;
+  padding: 0px;
+  margin: 20px;
+  font-size: var(--font-size-l);
+}
+
+.btn-minus {
+  color: var(--color-secondary);
+}
+
+.btn-plus {
+  color: var(--color-success);
+}
+
+.quantity-group button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(255, 204, 0, 0.8);
+}
+
+.btn-minus:hover,
+.btn-plus:hover {
+  cursor: pointer;
+  filter: brightness(150%);
+}

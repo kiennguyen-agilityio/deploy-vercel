@@ -1,0 +1,33 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+
+.no-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.no-results h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.no-results button {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.no-results button:hover {
+  background-color: var(--color-primary-dark);
+}

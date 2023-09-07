@@ -1,0 +1,65 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: var(--color-white);
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-close-button {
+  background: none;
+  border: none;
+  font-size: var(--font-size-md);
+  cursor: pointer;
+}
+
+.modal-body {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.error-fallback-container {
+  text-align: center;
+}
+
+.error-fallback-title {
+  font-size: var(--font-size-md);
+  margin-bottom: 10px;
+}
+
+.error-fallback-description {
+  font-size: var(--font-size-regular);
+  margin-bottom: 20px;
+}
+
+.error-fallback-button {
+  padding: 10px 20px;
+  font-size: var(--font-size-regular);
+  border-radius: 4px;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+}
+
+.error-fallback-button:hover {
+  background-color: var(--color-red);
+}

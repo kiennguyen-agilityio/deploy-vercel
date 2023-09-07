@@ -1,0 +1,71 @@
+.product-name-img {
+  font: normal var(--font-weight-bold) var(--font-size-sm) / var(--line-height-md) 'Open Sans';
+  color: var(--color-border-secondary);
+}
+
+.cart-item img {
+  width: 120px;
+  height: 120px;
+  margin-right: 25px;
+  vertical-align: middle;
+}
+
+.product-row-color select {
+  box-sizing: border-box;
+  width: 170px;
+  height: 60px;
+  border: 1px solid var(--color-black);
+  border-radius: 10px;
+  appearance: none;
+  background-image: url('/src//assets/images/icon-arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 30px) center;
+  background-size: 20px;
+  padding: 15px 30px 15px 30px;
+  margin-top: 15px;
+  background-color: var(--color-background-tertiary);
+}
+
+.product-row-color {
+  display: flex;
+  justify-content: center;
+}
+
+.product-price {
+  font: normal var(--font-weight-extrabold) var(--font-size-30) / normal 'Open Sans';
+  color: var(--color-overlay);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 150px;
+}
+
+.product-price span {
+  color: var(--color-price-secondary);
+  margin-left: 82.22px;
+}
+
+.delete-button {
+  color: var(--color-button-primary);
+  background: none;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  font-size: var(--font-size-l);
+}
+
+.delete-button {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button .material-symbols-outlined {
+  color: var(--color-button-primary);
+  transition: box-shadow 0.3s ease;
+}
+
+.delete-button:hover .material-symbols-outlined {
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+}

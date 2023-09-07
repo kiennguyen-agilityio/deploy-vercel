@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  class="product-color"
+>
+  <p>
+    Color
+  </p>
+  <div
+    class="select-wrapper"
+  >
+    <select>
+      <option
+        value="Black"
+      >
+        Black
+      </option>
+      <option
+        value="Red"
+      >
+        Red
+      </option>
+      <option
+        value="Green"
+      >
+        Green
+      </option>
+      <option
+        value="Yellow"
+      >
+        Yellow
+      </option>
+    </select>
+  </div>
+</div>
+`;

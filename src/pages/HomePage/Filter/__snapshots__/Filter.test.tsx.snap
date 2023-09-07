@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter component renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="filter-container"
+  >
+    <h2
+      class="filter-header"
+    >
+      Filter
+    </h2>
+    <div
+      class="filter-section"
+    >
+      <h3
+        class="filter-title "
+      >
+        Color
+        <span
+          aria-hidden="true"
+          class="material-symbols-outlined "
+          data-testid="expand-color"
+        >
+          expand_more
+        </span>
+      </h3>
+    </div>
+    <div
+      class="filter-section"
+    >
+      <h3
+        class="filter-title "
+      >
+        Rating
+        <span
+          aria-hidden="true"
+          class="material-symbols-outlined "
+        >
+          expand_more
+        </span>
+      </h3>
+    </div>
+    <div
+      class="filter-section"
+    >
+      <h3
+        class="filter-title "
+      >
+        Price
+        <span
+          aria-hidden="true"
+          class="material-symbols-outlined "
+          data-testid="expand-price"
+        >
+          expand_more
+        </span>
+      </h3>
+    </div>
+    <div
+      class="filter-section"
+    >
+      <h3
+        aria-hidden="true"
+        class="filter-title "
+        data-testid="id-category"
+      >
+        Category
+        <span
+          class="material-symbols-outlined "
+        >
+          expand_more
+        </span>
+      </h3>
+    </div>
+  </div>
+</DocumentFragment>
+`;

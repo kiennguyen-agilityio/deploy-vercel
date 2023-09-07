@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component renders Modal component correctly 1`] = `
+<div>
+  <div
+    class="modal-overlay"
+  >
+    <div
+      class="modal-content"
+    >
+      <div
+        class="modal-header"
+      >
+        <button
+          class="modal-close-button"
+          type="button"
+        >
+          ×
+        </button>
+      </div>
+      <div
+        class="modal-body"
+      >
+        <div>
+          Modal content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

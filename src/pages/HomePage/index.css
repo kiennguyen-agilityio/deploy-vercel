@@ -1,0 +1,11 @@
+.product-title {
+  width: 163px;
+  height: 54px;
+  font: normal var(--font-weight-extrabold) var(--font-size-xl) / var(--line-height-xxl) 'Open Sans';
+  color: var(--color-black);
+  margin: 50px 50px 50px 20px;
+}
+
+.product-content {
+  display: flex;
+}

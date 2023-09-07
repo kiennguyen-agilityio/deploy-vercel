@@ -1,0 +1,29 @@
+.rating i {
+  color: var(--color-icon-tertiary);
+  margin-right: 4px;
+}
+
+.img-group {
+  display: flex;
+}
+
+.product-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-images img {
+  margin-bottom: 25px;
+  width: 107px;
+  height: 107px;
+  background: var(--color-background-images);
+  border-radius: 5px;
+}
+
+.main-img {
+  margin-left: 50px;
+  width: 502px;
+  height: 503px;
+  background: var(--color-background-images);
+  border-radius: 5px;
+}

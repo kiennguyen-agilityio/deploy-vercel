@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuantityControl component renders correctly 1`] = `
+<div
+  class="quantity-group"
+>
+  <p>
+    Quantity
+  </p>
+  <div
+    class="quantity"
+  >
+    <button
+      class="btn btn-tertiary btn-color-success btn-md  "
+      type="button"
+    >
+      <span>
+        -
+      </span>
+    </button>
+    <div
+      class="quantity-line-number"
+    >
+      <span>
+        10
+      </span>
+      <div
+        class="divider"
+      />
+    </div>
+    <button
+      class="btn btn-tertiary btn-color-warning btn-md  "
+      type="button"
+    >
+      <span>
+        +
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`QuantityControl component renders correctly with quantity of value =  0 1`] = `
+<div
+  class="quantity-group"
+>
+  <p>
+    Quantity
+  </p>
+  <div
+    class="quantity"
+  >
+    <button
+      class="btn btn-tertiary btn-color-success btn-md btn-disabled "
+      disabled=""
+      type="button"
+    >
+      <span>
+        -
+      </span>
+    </button>
+    <div
+      class="quantity-line-number"
+    >
+      <span>
+        0
+      </span>
+      <div
+        class="divider"
+      />
+    </div>
+    <button
+      class="btn btn-tertiary btn-color-warning btn-md  "
+      type="button"
+    >
+      <span>
+        +
+      </span>
+    </button>
+  </div>
+</div>
+`;

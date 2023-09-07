@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders correctly 1`] = `
+<div
+  class="navbar"
+>
+  <a
+    href="/"
+  >
+    <div
+      class="logo"
+    >
+      <i
+        class="fa-sharp fa-solid fa-bag-shopping"
+      />
+      <span
+        class="shop-name"
+      >
+        Shop Bags
+      </span>
+    </div>
+  </a>
+  <div
+    class="search-bar-container"
+  >
+    <input
+      class="search-bar"
+      value=""
+    />
+    <i
+      class="search-icon fa-sharp fa-solid fa-search"
+    />
+  </div>
+  <div
+    class="icons"
+  >
+    <a
+      class="cart-icon-container"
+      href="/cart"
+    >
+      <i
+        class="material-symbols-outlined icon"
+      >
+        shopping_cart
+      </i>
+      <span
+        class="cart-item-count"
+      >
+        1
+      </span>
+    </a>
+    <i
+      class="material-symbols-outlined icon"
+    >
+      favorite
+    </i>
+  </div>
+  <div
+    class="button-container"
+  >
+    <button
+      class="btn-sign-up"
+      type="button"
+    >
+      Sign Up
+    </button>
+    <button
+      class="btn-login"
+      type="button"
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Header component should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="navbar"
+  >
+    <a
+      href="/"
+    >
+      <div
+        class="logo"
+      >
+        <i
+          class="fa-sharp fa-solid fa-bag-shopping"
+        />
+        <span
+          class="shop-name"
+        >
+          Shop Bags
+        </span>
+      </div>
+    </a>
+    <div
+      class="search-bar-container"
+    >
+      <input
+        class="search-bar"
+        value=""
+      />
+      <i
+        class="search-icon fa-sharp fa-solid fa-search"
+      />
+    </div>
+    <div
+      class="icons"
+    >
+      <a
+        class="cart-icon-container"
+        href="/cart"
+      >
+        <i
+          class="material-symbols-outlined icon"
+        >
+          shopping_cart
+        </i>
+      </a>
+      <i
+        class="material-symbols-outlined icon"
+      >
+        favorite
+      </i>
+    </div>
+    <div
+      class="button-container"
+    >
+      <button
+        class="btn-sign-up"
+        type="button"
+      >
+        Sign Up
+      </button>
+      <button
+        class="btn-login"
+        type="button"
+      >
+        Login
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

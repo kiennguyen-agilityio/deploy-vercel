@@ -1,0 +1,14 @@
+.product-detail-container {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin: 50px;
+}
+
+.product-detail-header {
+  width: 296px;
+  height: 54px;
+  font: normal var(--font-weight-extrabold) 40px/54px 'Open Sans';
+  color: var(--color-black);
+  margin: 50px;
+}

@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with children 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="navbar"
+  >
+    <a
+      href="/"
+    >
+      <div
+        class="logo"
+      >
+        <i
+          class="fa-sharp fa-solid fa-bag-shopping"
+        />
+        <span
+          class="shop-name"
+        >
+          Shop Bags
+        </span>
+      </div>
+    </a>
+    <div
+      class="search-bar-container"
+    >
+      <input
+        class="search-bar"
+        value=""
+      />
+      <i
+        class="search-icon fa-sharp fa-solid fa-search"
+      />
+    </div>
+    <div
+      class="icons"
+    >
+      <a
+        class="cart-icon-container"
+        href="/cart"
+      >
+        <i
+          class="material-symbols-outlined icon"
+        >
+          shopping_cart
+        </i>
+      </a>
+      <i
+        class="material-symbols-outlined icon"
+      >
+        favorite
+      </i>
+    </div>
+    <div
+      class="button-container"
+    >
+      <button
+        class="btn-sign-up"
+        type="button"
+      >
+        Sign Up
+      </button>
+      <button
+        class="btn-login"
+        type="button"
+      >
+        Login
+      </button>
+    </div>
+  </div>
+  <main
+    class="main-content"
+  >
+    <div>
+      Child component
+    </div>
+  </main>
+  <footer
+    class="footer-distributed"
+  >
+    <div
+      class="logo-footer"
+    >
+      <i
+        class="fa-sharp fa-solid fa-bag-shopping"
+      />
+      <span
+        class="shop-name"
+      >
+        Shop Bags
+      </span>
+    </div>
+    <div
+      class="social-icons"
+    >
+      <a
+        href="https://www.facebook.com"
+      >
+        <i
+          class="fa-brands fa-square-facebook"
+        />
+      </a>
+      <a
+        href="https://www.twitter.com"
+      >
+        <i
+          class="fa-brands fa-square-twitter"
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com"
+      >
+        <i
+          class="fa-brands fa-linkedin"
+        />
+      </a>
+      <a
+        href="https://www.telegram.org"
+      >
+        <i
+          class="fa-brands fa-square-instagram"
+        />
+      </a>
+    </div>
+    <p
+      class="copyright"
+    >
+      2019 © Shopbag - All right reserved
+    </p>
+  </footer>
+</div>
+`;

@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard component renders ProductCard component correctly 1`] = `
+<div>
+  <article
+    class="product-card 1"
+  >
+    <a
+      href="/products/1"
+    >
+      <img
+        alt="Fullset Black Chair & Sofa"
+        src="../src/assets/images/full-black-chair-sofa.png"
+      />
+      <h3
+        class="name"
+      >
+        Fullset Black Chair & Sofa
+      </h3>
+      <div
+        class="rating"
+      >
+        <i
+          class="fa-solid fa-star checked"
+        />
+        <i
+          class="fa-solid fa-star checked"
+        />
+        <i
+          class="fa-solid fa-star checked"
+        />
+        <i
+          class="fa-solid fa-star checked"
+        />
+        <i
+          class="fa-solid fa-star checked"
+        />
+        <span
+          class="sell-count"
+        >
+          (
+          350
+           sells)
+        </span>
+      </div>
+      <span
+        class="price"
+      >
+        <div
+          class="product-discount"
+        >
+          <span
+            class="discounted-price"
+          >
+            $
+            4500
+          </span>
+          <del
+            class="product-cost"
+          >
+            $
+            5000
+          </del>
+          <span
+            class="discount-percent"
+          >
+            -
+            10
+            %
+          </span>
+        </div>
+      </span>
+      <div
+        class="heart-icon"
+      >
+        <i
+          class="fa-solid fa-heart"
+        />
+      </div>
+    </a>
+  </article>
+</div>
+`;
+
+exports[`ProductCard component renders correct number of stars based on rating 1`] = `
+<div
+  class="rating"
+>
+  <i
+    class="fa-solid fa-star checked"
+  />
+  <i
+    class="fa-solid fa-star checked"
+  />
+  <i
+    class="fa-solid fa-star checked"
+  />
+  <i
+    class="fa-solid fa-star checked"
+  />
+  <i
+    class="fa-solid fa-star checked"
+  />
+  <span
+    class="sell-count"
+  >
+    (
+    350
+     sells)
+  </span>
+</div>
+`;
+
+exports[`renders ProductCard component correctly 1`] = `
+<div>
+  <article
+    class="product-card 1"
+  >
+    <a
+      href="/products/1"
+    >
+      <img
+        alt="Fullset Black Chair & Sofa"
+        src="../src/assets/images/full-black-chair-sofa.png"
+      />
+      <h3
+        class="name"
+      >
+        Fullset Black Chair & Sofa
+      </h3>
+      <div
+        class="rating"
+      >
+        <i
+          class="fa-solid fa-star checked"
+        />
+        <i
+          class="fa-solid fa-star checked"
+        />
+        <i
+          class="fa-solid fa-star checked"
+        />
+        <i
+          class="fa-solid fa-star checked"
+        />
+        <i
+          class="fa-solid fa-star checked"
+        />
+        <span
+          class="sell-count"
+        >
+          (
+          350
+           sells)
+        </span>
+      </div>
+      <span
+        class="price"
+      >
+        <div
+          class="product-discount"
+        >
+          <span
+            class="discounted-price"
+          >
+            $
+            4500
+          </span>
+          <del
+            class="product-cost"
+          >
+            $
+            5000
+          </del>
+          <span
+            class="discount-percent"
+          >
+            -
+            10
+            %
+          </span>
+        </div>
+      </span>
+      <div
+        class="heart-icon"
+      >
+        <i
+          class="fa-solid fa-heart"
+        />
+      </div>
+    </a>
+  </article>
+</div>
+`;

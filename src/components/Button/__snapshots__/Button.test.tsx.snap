@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component renders button correctly 1`] = `
+<span>
+  Submit
+</span>
+`;
+
+exports[`Button component renders button with left icon 1`] = `
+<i
+  class="fa fa-arrow-left"
+  data-testid="left-icon"
+/>
+`;
+
+exports[`Button component renders button with secondary variant 1`] = `
+<span>
+  Submit
+</span>
+`;

@@ -1,0 +1,118 @@
+.product-info {
+  margin-left: 50px;
+}
+
+.product-info > *:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.product-name {
+  font: normal var(--font-weight-bold) var(--font-size-xl) / var(--line-height-xxl) 'Open Sans';
+  color: var(--color-price-secondary);
+}
+
+.sell-count {
+  font: normal var(--font-weight-regular) 14px / var(--line-height-14) 'Open Sans';
+  letter-spacing: 0.1px;
+  color: #78788c;
+  margin-left: 11.5px;
+}
+
+.product-price-groups {
+  font: normal var(--font-weight-extrabold) var(--font-size-xxl) / var(--line-height-61) 'Open Sans';
+  display: flex;
+  align-items: center;
+  color: var(--color-price-primary);
+}
+
+.product-price-detail {
+  font: normal var(--font-weight-extrabold) var(--font-size-xxl) / var(--line-height-61) 'Open Sans';
+  display: flex;
+  align-items: center;
+  color: var(--color-price-primary);
+}
+
+.product-cost {
+  font: normal var(--font-weight-regular) var(--font-size-regular) / var(--line-height-md)
+    'Open Sans';
+  color: var(--color-primary);
+  margin: 0 10px;
+}
+
+.discount-percent {
+  font: normal var(--font-weight-regular) var(--font-size-regular) / var(--line-height-md)
+    'Open Sans';
+  color: var(--color-secondary);
+}
+
+.product-color p {
+  font: normal var(--font-weight-semibold) var(--font-size-l) / var(--line-height-xl) 'Open Sans';
+  color: var(--color-black);
+}
+
+.product-color select {
+  box-sizing: border-box;
+  width: 170px;
+  height: 60px;
+  border: 1px solid var(--color-black);
+  border-radius: 10px;
+  appearance: none;
+  background-image: url('/src/assets/images/icon-arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 30px) center;
+  background-size: 20px;
+  padding: 15px 30px;
+  margin-top: 15px;
+  background-color: var(--color-background-tertiary);
+}
+
+.select-wrapper option {
+  position: absolute;
+  width: 62px;
+  height: 34px;
+  font: normal var(--font-weight-regular) var(--font-size-l) / var(--line-height-xl) 'Open Sans';
+}
+
+.quantity-group p {
+  width: 106px;
+  height: 34px;
+  font: normal var(--font-weight-semibold) var(--font-size-l) / var(--line-height-xl) 'Open Sans';
+  color: var(--color-black);
+}
+
+.divider {
+  width: 30px;
+  height: 0px;
+  border: 0.5px solid #798291;
+}
+
+.quantity-line-number {
+  text-align: center;
+  color: var(--color-price-secondary);
+  font: normal var(--font-weight-regular) var(--font-size-l) / var(--line-height-xl) 'Open Sans';
+}
+
+.button-add {
+  display: flex;
+}
+
+.button-add button {
+  margin-right: 25px;
+}
+
+.icon-shopping {
+  color: var(--color-white);
+  padding-right: 15px;
+}
+
+.icon-heart {
+  padding-right: 15px;
+}
+
+.button-add button:hover {
+  filter: brightness(150%);
+}
+
+.quantity {
+  justify-content: flex-start;
+}

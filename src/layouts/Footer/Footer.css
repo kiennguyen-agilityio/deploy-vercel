@@ -1,0 +1,41 @@
+.footer-distributed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--color-white);
+  padding-top: 114px;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.logo i {
+  font-size: var(--font-size-md);
+  margin-right: 5px;
+}
+
+.shop-name {
+  font-weight: bold;
+}
+
+.social-icons {
+  margin: 0 0 80px 30px;
+}
+
+.social-icons a {
+  margin-right: 30px;
+}
+
+.social-icons i {
+  font-size: var(fs-large-more);
+  color: var(--color-black);
+}
+
+.copyright {
+  margin-top: 10px;
+  text-align: center;
+}

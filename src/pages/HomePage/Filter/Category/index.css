@@ -1,0 +1,20 @@
+.subcategory-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-title:hover {
+  background-color: var(--color-hover);
+}
+
+.dropdown-text:hover {
+  color: var(--color-button-primary);
+}
+
+.price-button:hover {
+  background-color: var(--color-background-secondary);
+}
+
+.subcategory:hover {
+  background-color: var(--color-background-secondary);
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/src/assets/font/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+body {
+  font-family: 'Open Sans ', sans-serif;
+  font-size: var(--font-weight-regular);
+  height: 100vh;
+}

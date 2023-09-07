@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage renders the component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="navbar"
+    >
+      <a
+        href="/"
+      >
+        <div
+          class="logo"
+        >
+          <i
+            class="fa-sharp fa-solid fa-bag-shopping"
+          />
+          <span
+            class="shop-name"
+          >
+            Shop Bags
+          </span>
+        </div>
+      </a>
+      <div
+        class="search-bar-container"
+      >
+        <input
+          class="search-bar"
+          value=""
+        />
+        <i
+          class="search-icon fa-sharp fa-solid fa-search"
+        />
+      </div>
+      <div
+        class="icons"
+      >
+        <a
+          class="cart-icon-container"
+          href="/cart"
+        >
+          <i
+            class="material-symbols-outlined icon"
+          >
+            shopping_cart
+          </i>
+        </a>
+        <i
+          class="material-symbols-outlined icon"
+        >
+          favorite
+        </i>
+      </div>
+      <div
+        class="button-container"
+      >
+        <button
+          class="btn-sign-up"
+          type="button"
+        >
+          Sign Up
+        </button>
+        <button
+          class="btn-login"
+          type="button"
+        >
+          Login
+        </button>
+      </div>
+    </div>
+    <main
+      class="main-content"
+    >
+      <h2
+        class="product-title"
+      >
+        Product
+      </h2>
+      <div
+        class="product-content"
+      >
+        <div
+          class="filter-container"
+        >
+          <h2
+            class="filter-header"
+          >
+            Filter
+          </h2>
+          <div
+            class="filter-section"
+          >
+            <h3
+              aria-hidden="true"
+              class="filter-title "
+              data-testid="id-color"
+            >
+              Color
+              <span
+                class="material-symbols-outlined "
+              >
+                expand_more
+              </span>
+            </h3>
+          </div>
+          <div
+            class="filter-rating"
+          >
+            <h3
+              aria-hidden="true"
+              class="filter-title "
+              data-testid="id-rating"
+            >
+              Rating
+              <span
+                class="material-symbols-outlined "
+              >
+                expand_more
+              </span>
+            </h3>
+          </div>
+          <div
+            class="filter-price"
+          >
+            <h3
+              aria-hidden="true"
+              class="filter-title "
+              data-testid="id-price"
+            >
+              Price
+              <span
+                class="material-symbols-outlined "
+              >
+                expand_more
+              </span>
+            </h3>
+          </div>
+          <div
+            class="filter-section"
+          >
+            <h3
+              aria-hidden="true"
+              class="filter-title "
+              data-testid="id-category"
+            >
+              Category
+              <span
+                class="material-symbols-outlined "
+              >
+                expand_more
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div
+          class="spinner-container"
+        >
+          <div
+            class="loading-spinner"
+          />
+        </div>
+      </div>
+    </main>
+    <footer
+      class="footer-distributed"
+    >
+      <div
+        class="logo-footer"
+      >
+        <i
+          class="fa-sharp fa-solid fa-bag-shopping"
+        />
+        <span
+          class="shop-name"
+        >
+          Shop Bags
+        </span>
+      </div>
+      <div
+        class="social-icons"
+      >
+        <a
+          href="https://www.facebook.com"
+        >
+          <i
+            class="fa-brands fa-square-facebook"
+          />
+        </a>
+        <a
+          href="https://www.twitter.com"
+        >
+          <i
+            class="fa-brands fa-square-twitter"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com"
+        >
+          <i
+            class="fa-brands fa-linkedin"
+          />
+        </a>
+        <a
+          href="https://www.telegram.org"
+        >
+          <i
+            class="fa-brands fa-square-instagram"
+          />
+        </a>
+      </div>
+      <p
+        class="copyright"
+      >
+        2019 © Shopbag - All right reserved
+      </p>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
