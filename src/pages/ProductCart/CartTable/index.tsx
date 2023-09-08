@@ -13,11 +13,7 @@ interface Props {
 }
 
 const CartTable: React.FC<Props> = ({ onQuantityChange, onColorChange, onDeleteProduct }) => {
-  const { products, isLoading } = useContext(CartContext);
-
-  if (isLoading) {
-    return <p>Loading...</p>;
-  }
+  const { products } = useContext(CartContext);
 
   /**
    * Calculates the total price of products.
