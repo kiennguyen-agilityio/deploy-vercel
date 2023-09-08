@@ -49,8 +49,8 @@ const CartItemRow: React.FC<Props> = ({
           </div>
         </div>
       </td>
-      <td className="product-price">
-        ${price * quantity}
+      <td className="product-price">${price * quantity}</td>
+      <td className="delete-button">
         <button
           className="delete-button"
           onClick={() => onDeleteProduct(id.toString())}
