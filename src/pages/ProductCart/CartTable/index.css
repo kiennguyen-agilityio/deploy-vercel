@@ -38,5 +38,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 40px;
+  width: 70%;
+  box-sizing: border-box;
 }
