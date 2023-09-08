@@ -36,8 +36,12 @@
 
 .price-column {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  width: 70%;
+  width: 75%;
   box-sizing: border-box;
+}
+
+.total-price-label {
+  margin-right: 10px;
 }

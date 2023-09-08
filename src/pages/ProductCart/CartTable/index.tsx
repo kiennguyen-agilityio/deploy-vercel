@@ -71,7 +71,7 @@ const CartTable: React.FC<Props> = ({ onQuantityChange, onColorChange, onDeleteP
         <tr className="total-price-group">
           <td colSpan={3}></td>
           <td className="price-column">
-            <span className="total-price-label">Total :</span>{' '}
+            <span className="total-price-label">Total</span>
             <span className="total-price">{handleCalculateTotalPrice()}</span>
           </td>
         </tr>
